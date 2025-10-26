@@ -6,10 +6,10 @@ A Google Calendar-like web application built with Next.js, Firebase Authenticati
 
 - Firebase Authentication with Email/Password and Google Sign-In
 - Google Calendar-like interface
-- Event creation, editing, and deletion
+- Event creation
 - In-memory event storage with localStorage persistence
 - Responsive design with Tailwind CSS
-- Protected routes (unauthenticated users cannot access calendar)
+- Protected routes
 
 ## Setup
 
@@ -22,7 +22,7 @@ A Google Calendar-like web application built with Next.js, Firebase Authenticati
 2. Set up Firebase:
 
   
-   ** Create .env.local File**
+   **Create .env.local File**
 
    - Create a file named `.env.local`
    - Add your Firebase credentials (replace the values with your actual config):
